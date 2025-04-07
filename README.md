@@ -37,8 +37,9 @@ To Gain practical experience in deploying a MERN stack application on AWS using 
    ```
 3. Setup webserver using [ansible/webserver.yaml](ansible/webserver.yaml)
 4. Setup Database server using [ansible/dbserver.yaml](ansible/dbserver.yaml)
-5. Setup the application deployment using [ansible/deploy.yaml](ansible/deploy.yaml)
-6. Run ansible playbook using
+5. Setup security hardening using [ansible/hardening.yaml](ansible/hardening.yaml)
+6. Setup the application deployment using [ansible/deploy.yaml](ansible/deploy.yaml)
+7. Run ansible playbook using
    ```
       ansible-playbook -i inventory.ini deploy.yml
    ```
