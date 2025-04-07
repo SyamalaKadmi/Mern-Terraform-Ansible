@@ -20,7 +20,7 @@ To Gain practical experience in deploying a MERN stack application on AWS using 
    ```
 2. VPC, Network Configuration, EC2 Instance Provisioning, Security Groups & IAM Roles
    - [terraform/main.tf](terraform/main.tf)
-3. Output of the public IP can obtained using [terraform/outputs.tf](terraform/output.tf)
+3. Output of the public IP can obtained using [terraform/outputs.tf](terraform/outputs.tf)
 
 ### Part 2: Configuration and Deployment with Ansible
 1. Install Ansible and required dependencies
